@@ -10,7 +10,7 @@ export default function Home() {
           Build Your Future.</h1>
         <div className="flex gap-8">
 
-          <Link href={"#"} className="flex justify-center items-center md:w-40 md:h-14 md:bg-black md:text-white md:px-[32px] md:py-[16px] text-nowrap rounded-[5px]">
+          <Link href={"#"} className="flex justify-center items-center md:w-40 md:h-14 md:bg-[#0BB574] md:text-white md:px-[32px] md:py-[16px] text-nowrap rounded-[5px]">
             <div>
               Offer Services
             </div>
