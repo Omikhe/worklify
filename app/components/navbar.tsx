@@ -19,7 +19,7 @@ export default function Navbar() {
     ];
 
     return (
-        <main className="flex justify-between items-center py-6 px-5 max-w-7xl mx-auto w-full">
+        <main className="flex justify-between items-center py-6 px-5 max-w-7xl mx-auto w-full text-[#05120E]">
             {/* Desktop Navigation */}
             <nav className="md:flex md:w-full md:justify-between md:items-center md:font-bold">
                 {/* Logo */}
@@ -35,7 +35,7 @@ export default function Navbar() {
                                 "font-semibold text-base text-black active:text-[#14E2A1] transition-colors",
                                 {
                                     "text-[#14E2A1]": pathname === item.href,
-                                    "hidden md:flex md:justify-center md:w-[6.5rem] md:h-14 md:px-[16px] md:py-[8px] md:text-white md:items-center md:bg-black md:rounded-[5px] md:text-lg": item.title === "Sign Up"
+                                    "hidden md:flex md:justify-center md:w-[6.5rem] md:h-14 md:px-[16px] md:py-[8px] md:text-white md:items-center md:bg-[#05120E] md:rounded-[5px] md:text-lg": item.title === "Sign Up"
                                 }
                             )}
                             onClick={() => setIsMenuOpen(false)}
