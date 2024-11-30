@@ -32,9 +32,9 @@ export default function Navbar() {
                             key={item.title}
                             href={item.href}
                             className={clsx(
-                                "font-semibold text-base text-black active:text-[#14E2A1] transition-colors",
+                                "font-semibold text-base text-black hover:text-[#0BB574] transition-colors",
                                 {
-                                    "text-[#14E2A1]": pathname === item.href,
+                                    "text-[#0BB574]": pathname === item.href,
                                     "hidden md:flex md:justify-center md:w-[6.5rem] md:h-14 md:px-[16px] md:py-[8px] md:text-white md:items-center md:bg-[#05120E] md:rounded-[5px] md:text-lg": item.title === "Sign Up"
                                 }
                             )}
@@ -93,8 +93,8 @@ export default function Navbar() {
                                 key={item.title}
                                 href={item.href}
                                 className={clsx(
-                                    "font-semibold text-base text-black active:text-[#14E2A1] transition-colors",
-                                    { "text-[#14E2A1]": pathname === item.href }
+                                    "font-semibold text-base text-black active:text-[#0BB574] transition-colors",
+                                    { "text-[#0BB574]": pathname === item.href }
                                 )}
                                 onClick={() => setIsMenuOpen(false)}
                             >
