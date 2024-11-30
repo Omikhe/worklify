@@ -35,7 +35,7 @@ export default function Navbar() {
                                 "font-semibold text-base text-black active:text-[#14E2A1] transition-colors",
                                 {
                                     "text-[#14E2A1]": pathname === item.href,
-                                    "hidden md:flex md:justify-center md:w-32 md:h-14 md:px-[16px] md:py-[8px] md:text-white md:items-center md:bg-black md:rounded-[5px] md:text-lg": item.title === "Sign Up"
+                                    "hidden md:flex md:justify-center md:w-[6.5rem] md:h-14 md:px-[16px] md:py-[8px] md:text-white md:items-center md:bg-black md:rounded-[5px] md:text-lg": item.title === "Sign Up"
                                 }
                             )}
                             onClick={() => setIsMenuOpen(false)}
