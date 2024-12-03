@@ -13,7 +13,7 @@ export default function Navbar() {
     // Navigation items with titles, links, and icons
     const navItems = [
         { title: "Home", href: "/", icon: <Home /> },
-        { title: "Services", href: "#", icon: <Briefcase /> },
+        { title: "Services", href: "/services", icon: <Briefcase /> },
         { title: "Log In", href: "/login", icon: <LogIn /> },
         { title: "Sign Up", href: "/signup", icon: <UserRound /> }
     ];
@@ -26,7 +26,7 @@ export default function Navbar() {
                 <div className="text-2xl font-bold md:text-3xl">Worklify<span className="text-[#14E2A1]">.</span></div>
 
                 {/* Desktop Menu Items */}
-                <div className="hidden md:text-[24px] md:flex md:justify-between md:items-center md:gap-12 font-medium">
+                <div className="hidden md:text-[24px] lg:flex md:justify-between md:items-center md:gap-12 font-medium">
                     {navItems.map((item) => (
                         <Link
                             key={item.title}
