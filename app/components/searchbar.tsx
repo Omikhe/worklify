@@ -12,15 +12,12 @@ const SearchBar = () => {
     };
 
     return (
-        <search className="max-w-md mx-auto">
-            <form onSubmit={handleSubmit} className="flex items-center ">
+        <search className="md:w-[528px] mx-auto">
+            <form onSubmit={handleSubmit} className="flex items-center">
                 <label htmlFor="site-search" className="sr-only">
                     Search the site
                 </label>
-                <div
-                    className="flex bg-[#F3F3F3] rounded-[9px] p-1 gap-1"
-
-                >
+                <div className="flex md:justify-between bg-[#F3F3F3] rounded-[9px] p-1 gap-1 md:w-[528px]" >
 
                     <input
                         type="search"
@@ -28,7 +25,7 @@ const SearchBar = () => {
                         value={searchTerm}
                         onChange={(e) => setSearchTerm(e.target.value)}
                         placeholder="What do you need help with?"
-                        className="px-3 font-normal outline-none bg-[#F3F3F3]"
+                        className="px-3 font-normal outline-none bg-[#F3F3F3] md:w-full"
                     />
                     <button
                         type="submit"
