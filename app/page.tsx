@@ -11,7 +11,7 @@ export default function Home() {
       {/* Hero section with centered content */}
       <div className="flex flex-col space-y-8 justify-center items-center font-bold md:mt-[250px] mt-52 text-[#05120E]">
         {/* Main headline */}
-        <h1 className="text-5xl w-80 md:text-8xl md:w-[1011px] text-center md:flex md:justify-center md:items-center md:mb-8">
+        <h1 className="text-5xl w-80 md:text-8xl lg:w-[1011px] text-center md:flex md:justify-center md:items-center md:mb-8 md:text-[64px] lg:text-8xl md:w-[674px]">
           Unlock Opportunities. Build Your Future.
         </h1>
 
