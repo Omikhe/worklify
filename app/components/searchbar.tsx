@@ -5,7 +5,7 @@ import { Search } from 'lucide-react';
 const SearchBar = () => {
     const [searchTerm, setSearchTerm] = useState('');
 
-    const handleSubmit = (e) => {
+    const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
         // Perform search action
         console.log('Searching for:', searchTerm);
