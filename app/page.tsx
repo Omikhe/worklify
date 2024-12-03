@@ -27,7 +27,7 @@ export default function Home() {
 
           {/* Find Services button */}
           <Link
-            href="#"
+            href="/services"
             className="flex justify-center items-center w-[176.66px] h-[44.39px] active:md:bg-black md:w-40 md:h-14 hover:md:bg-black hover:md:text-white md:px-[32px] md:py-[16px] text-nowrap rounded-[5px] border-2 border-[#text-[#05120E]] transition-colors ease-in-out duration-200"
           >
             Find Services
