@@ -19,7 +19,7 @@ export default function Navbar() {
     ];
 
     return (
-        <main className="flex justify-between items-center py-6 px-5 max-w-7xl mx-auto w-full text-[#05120E]">
+        <main className="sticky top-0 z-50 bg-white flex justify-between items-center py-6 px-5 max-w-7xl mx-auto w-full text-[#05120E]">
             {/* Desktop Navigation */}
             <nav className="md:flex md:w-full md:justify-between md:items-center md:font-bold">
                 {/* Logo */}
