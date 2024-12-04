@@ -5,30 +5,82 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main>
-      {/* Navigation bar component */}
+      {/* Global Navigation Bar */}
       <Navbar />
 
-      {/* Hero section with centered content */}
-      <div className="flex flex-col space-y-8 justify-center items-center font-bold md:mt-[250px] mt-52 text-[#05120E]">
-        {/* Main headline */}
-        <h1 className="text-5xl w-80 md:text-8xl lg:w-[1011px] text-center md:flex md:justify-center md:items-center md:mb-8 md:text-[64px] lg:text-8xl md:w-[674px]">
+      {/* Hero Section: Central Content Container */}
+      <div className="
+        flex flex-col 
+        items-center 
+        justify-center 
+        text-center 
+        space-y-8 
+        mt-52 
+        md:mt-[250px] 
+        text-[#05120E]
+      ">
+        {/* Main Headline with Responsive Typography */}
+        <h1 className="
+          text-5xl 
+          md:text-[64px] 
+          lg:text-8xl 
+          font-bold 
+          w-80 
+          md:w-[674px] 
+          lg:w-[1011px]
+        ">
           Unlock Opportunities. Build Your Future.
         </h1>
 
-        {/* Call-to-action buttons */}
+        {/* Call-to-Action Button Group */}
         <div className="flex gap-8">
-          {/* Offer Services button */}
+          {/* Primary Action: Offer Services */}
           <Link
             href="#"
-            className="flex justify-center items-center w-[146.48px] h-[44.39px] md:w-40 md:h-14 bg-[#0BB574] text-white md:px-[32px] md:py-[16px] text-nowrap rounded-[5px]"
+            className="
+              flex 
+              items-center 
+              justify-center 
+              w-[146px] 
+              md:w-40 
+              h-[44px] 
+              md:h-14 
+              bg-[#0BB574] 
+              text-white 
+              rounded-[5px] 
+              px-4 
+              py-2 
+              text-nowrap 
+              hover:bg-[#09a362] 
+              transition-colors 
+              duration-200
+            "
           >
             Offer Services
           </Link>
 
-          {/* Find Services button */}
+          {/* Secondary Action: Find Services */}
           <Link
             href="/services"
-            className="flex justify-center items-center w-[176.66px] h-[44.39px] active:md:bg-black md:w-40 md:h-14 hover:md:bg-black hover:md:text-white md:px-[32px] md:py-[16px] text-nowrap rounded-[5px] border-2 border-[#text-[#05120E]] transition-colors ease-in-out duration-200"
+            className="
+              flex 
+              items-center 
+              justify-center 
+              w-[176px] 
+              md:w-40 
+              h-[44px] 
+              md:h-14 
+              rounded-[5px] 
+              border-2 
+              border-[#05120E] 
+              text-nowrap 
+              px-4 
+              py-2 
+              hover:bg-black 
+              hover:text-white 
+              transition-colors 
+              duration-200
+            "
           >
             Find Services
           </Link>
