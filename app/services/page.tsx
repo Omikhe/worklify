@@ -1,8 +1,9 @@
 import Navbar from "../components/navbar";
 import SearchBar from "../components/searchbar";
 import { SlidersHorizontal } from 'lucide-react';
-import SearchCard from "../components/service-card";
+import ServiceCard from "../components/service-card";
 import Footer from "../components/footer";
+import ServiceData from "./services.json";
 
 export default function Services() {
     return (
@@ -40,14 +41,14 @@ export default function Services() {
 
                             <div className="w-auto h-8 p-2 bg-[#F3F3F3] flex items-center justify-center  rounded-[5px]">Car Wash</div>
 
-                            <div className="w-auto h-8 p-2 bg-[#F3F3F3] flex items-center justify-center  rounded-[5px]">Electrician</div>
+                            <div className="lg:flex md:hidden w-auto h-8 p-2 bg-[#F3F3F3] flex items-center justify-center  rounded-[5px]">Electrician</div>
 
-                            <div className="w-auto h-8 p-2 bg-[#F3F3F3] flex items-center justify-center  rounded-[5px]">Mechanic</div>
+                            <div className="lg:flex md:hidden w-auto h-8 p-2 bg-[#F3F3F3] flex items-center justify-center  rounded-[5px]">Mechanic</div>
 
                         </div>
 
 
-                        <div className="border-2 border-[#D9D9D9] w-auto h-11 flex justify-between gap-2 items-center rounded-[5px] p-1">
+                        <div className="border-2 border-[#D9D9D9] w-auto h-auto flex justify-between gap-2 items-center rounded-[5px] px-2 py-1">
                             <SlidersHorizontal className="w-5" />
                             Filter
                         </div>
@@ -59,26 +60,18 @@ export default function Services() {
                 {/* Services Section - Service cards */}
                 <div className="w-full flex justify-center items-center">
 
-                    <div className="columns-1 md:columns-2 lg:columns-4 gap-4 md:w-auto md:px-8">
-                        <SearchCard />
-                        <SearchCard />
-                        <SearchCard />
-                        <SearchCard />
-                        <SearchCard />
-                        <SearchCard />
-                        <SearchCard />
-                        <SearchCard />
-                        <SearchCard />
-                        <SearchCard />
-                        <SearchCard />
-                        <SearchCard />
-                        <SearchCard />
-                        <SearchCard />
-                        <SearchCard />
-                        <SearchCard />
-                        <SearchCard />
-                        <SearchCard />
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:w-auto md:px-8">
+
+                        {ServiceData.map((service, index) => (
+                            <ServiceCard
+                                key={index}
+                                title={service.title}
+                                image={service.image}
+                                availability={service.availability}
+                            />
+                        ))}
                     </div>
+
                 </div>
 
 
