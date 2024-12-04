@@ -23,7 +23,7 @@ export default function Navbar() {
             {/* Desktop Navigation */}
             <nav className="md:flex md:w-full md:justify-between md:items-center md:font-bold">
                 {/* Logo */}
-                <div className="text-2xl font-bold md:text-3xl">Worklify<span className="text-[#14E2A1]">.</span></div>
+                <Link href={"/"} className="text-2xl font-bold md:text-3xl">Worklify<span className="text-[#14E2A1]">.</span></Link>
 
                 {/* Desktop Menu Items */}
                 <div className="hidden md:text-[24px] lg:flex md:justify-between md:items-center md:gap-12 font-medium">
