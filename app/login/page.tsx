@@ -1,6 +1,7 @@
 "use client"
 import { useState } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const LoginPage = () => {
     const [email, setEmail] = useState('');
@@ -51,12 +52,14 @@ const LoginPage = () => {
                         value={password}
                         onChange={(e) => setPassword(e.target.value)}
                     />
-                    <button
-                        type="submit"
-                        className="w-full bg-green-500 hover:bg-green-600 text-white font-medium py-2 px-4 rounded-md"
+
+                    {/* used link because the login page is not linked to any backend */}
+                    <Link
+                        href={"/"}
+                        className="flex justify-center items-center w-full bg-green-500 hover:bg-green-600 text-white font-medium py-2 px-4 rounded-md"
                     >
                         Log in
-                    </button>
+                    </Link>
                 </form>
             </div>
         </div>
