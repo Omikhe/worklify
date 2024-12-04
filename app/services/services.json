@@ -7,43 +7,43 @@
   },
   {
     "title": "Residential Electrical Repairs",
-    "image": "/worker.jpg",
+    "image": "/worker-2.jpg",
     "availability": "Mon-Sat, 8am-6pm",
     "description": "Expert electrical services for home wiring, panel upgrades, and safety inspections."
   },
   {
     "title": "HVAC System Installation",
-    "image": "/worker.jpg",
+    "image": "/worker-3.jpg",
     "availability": "Mon-Fri, 9am-5pm",
     "description": "Complete heating and cooling system installations with energy-efficient solutions."
   },
   {
     "title": "Landscaping & Garden Design",
-    "image": "/worker.jpg",
+    "image": "/landscape.jpg",
     "availability": "Tue-Sat, 7am-4pm",
     "description": "Professional landscape design and maintenance for residential and commercial properties."
   },
   {
     "title": "Roof Repair & Replacement",
-    "image": "/worker.jpg",
+    "image": "/roof.jpg",
     "availability": "Mon-Fri, 7am-5pm",
     "description": "Comprehensive roofing services including repairs, replacements, and emergency patching."
   },
   {
     "title": "Commercial Cleaning Services",
-    "image": "/worker.jpg",
+    "image": "/cleaning.jpg",
     "availability": "24/7",
     "description": "Thorough cleaning solutions for offices, warehouses, and commercial spaces."
   },
   {
     "title": "Pest Control & Extermination",
-    "image": "/worker.jpg",
+    "image": "/pest.jpg",
     "availability": "Mon-Sat, 8am-7pm",
     "description": "Comprehensive pest management for residential and commercial properties."
   },
   {
     "title": "Home Security System Installation",
-    "image": "/worker.jpg",
+    "image": "/security.jpg",
     "availability": "Mon-Fri, 9am-6pm",
     "description": "Advanced security solutions including camera systems, alarms, and smart home integration."
   },
@@ -84,8 +84,8 @@
     "description": "Immediate response to water damage with comprehensive drying and restoration services."
   },
   {
-    "title": "Window & Glass Replacement",
-    "image": "/worker.jpg",
+    "title": "Moving Assistance",
+    "image": "/moving.jpg",
     "availability": "Tue-Sat, 9am-6pm",
     "description": "Professional window installation and glass replacement for homes and businesses."
   }
