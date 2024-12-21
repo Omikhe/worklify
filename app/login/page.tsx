@@ -18,7 +18,7 @@ export default function Login() {
                     <h2 className="font-normal text-center">Log in to connect with your next helper</h2>
                 </div>
 
-                <div className="w-full h-10 bg-[#E8E8E8] flex items-center justify-center p-6 rounded mb-9">
+                <div className="w-full h-10 bg-[#E8E8E8] flex items-center justify-center p-4 font-bold rounded mb-9">
                     <Image src="/google-icon.svg" alt="Google" width={24} height={24} className="mr-2" />
                     Log in with Google
                 </div>
